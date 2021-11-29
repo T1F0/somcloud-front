@@ -79,7 +79,7 @@ export default {
       })
     },
     detail(val) {
-      thi s.$router.push({
+      this.$router.push({
         path:'workOrderDetail',                                //页面跳转
         query:{
           orderId:val.id,
